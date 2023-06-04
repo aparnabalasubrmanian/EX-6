@@ -4,6 +4,7 @@ AIM :
   To write the python program for simulating ping command.
 
 ALGORITHM :
+```
 Step 1: start the program.
 Step 2: Include necessary package in java.
 Step 3: To create a process object p to implement the ping command.
@@ -15,8 +16,9 @@ Step 5: Get the details of the server
 5.4: minimum, maximum and average times.
 Step 6: print the results.
 Step 7: Stop the program.
-
+```
 PROGRAM :
+```
 CLIENT:
 import socket
 from pythonping import ping
@@ -39,6 +41,7 @@ while True:
     ip=input("Enter the website you want to ping ")
     s.send(ip.encode())
     print(s.recv(1024).decode()
+```
 
 OUTPUT :
 CLIENT:
